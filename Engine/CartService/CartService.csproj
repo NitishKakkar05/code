@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="IPromotion.cs" />
     <Compile Include="PromotionBuyForFixedPrice.cs" />
+    <Compile Include="PromotionBuyNItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
