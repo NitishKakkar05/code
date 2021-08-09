@@ -1,6 +1,7 @@
 ﻿
 using System.Collections.Generic;
 using DataModel;
+using PromotionsLib;
 
 namespace CartService
 {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using DataModel;
 
-namespace CartService
+namespace PromotionsLib
 {
     class PromotionBuyForFixedPrice : IPromotion
     {

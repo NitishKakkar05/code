@@ -2,7 +2,7 @@
 using System.Linq;
 using DataModel;
 
-namespace CartService
+namespace PromotionsLib
 {
     class PromotionBuyNItems : IPromotion
     {

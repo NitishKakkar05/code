@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05CF2220-3E82-4826-B170-92C298DE9182}</ProjectGuid>
+    <ProjectGuid>{CF326927-364E-4A8F-A227-9A57A36E2483}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CartService</RootNamespace>
-    <AssemblyName>CartService</AssemblyName>
+    <RootNamespace>PromotionsLib</RootNamespace>
+    <AssemblyName>PromotionsLib</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,17 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cart.cs" />
+    <Compile Include="IPromotion.cs" />
+    <Compile Include="PromotionBuyForFixedPrice.cs" />
+    <Compile Include="PromotionBuyNItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataModel\DataModel.csproj">
       <Project>{bf720a30-fb09-404d-b4e5-3aca37b8a639}</Project>
       <Name>DataModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PromotionsLib\PromotionsLib.csproj">
-      <Project>{cf326927-364e-4a8f-a227-9a57a36e2483}</Project>
-      <Name>PromotionsLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

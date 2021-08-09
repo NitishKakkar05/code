@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using DataModel;
 
-namespace CartService
+namespace PromotionsLib
 {
     public interface IPromotion
     {

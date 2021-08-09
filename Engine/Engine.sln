@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService", "CartService\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{BF720A30-FB09-404D-B4E5-3ACA37B8A639}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionsLib", "PromotionsLib\PromotionsLib.csproj", "{CF326927-364E-4A8F-A227-9A57A36E2483}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BF720A30-FB09-404D-B4E5-3ACA37B8A639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF720A30-FB09-404D-B4E5-3ACA37B8A639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF720A30-FB09-404D-B4E5-3ACA37B8A639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF326927-364E-4A8F-A227-9A57A36E2483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF326927-364E-4A8F-A227-9A57A36E2483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF326927-364E-4A8F-A227-9A57A36E2483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF326927-364E-4A8F-A227-9A57A36E2483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
