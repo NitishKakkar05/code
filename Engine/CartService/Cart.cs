@@ -10,7 +10,7 @@ namespace CartService
         public decimal CartPrice { get; set; }
 
         public List<CartItem> cartItems;
-        private List<IPromotion> promotions;
+        public List<IPromotion> promotions;
 
         public Cart()
         {

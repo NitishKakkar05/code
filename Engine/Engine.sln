@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionsLib", "PromotionsLib\PromotionsLib.csproj", "{CF326927-364E-4A8F-A227-9A57A36E2483}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{3897ADE4-D441-4578-95D8-307D95ADE2A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CF326927-364E-4A8F-A227-9A57A36E2483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF326927-364E-4A8F-A227-9A57A36E2483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF326927-364E-4A8F-A227-9A57A36E2483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3897ADE4-D441-4578-95D8-307D95ADE2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3897ADE4-D441-4578-95D8-307D95ADE2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3897ADE4-D441-4578-95D8-307D95ADE2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3897ADE4-D441-4578-95D8-307D95ADE2A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
