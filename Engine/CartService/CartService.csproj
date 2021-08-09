@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cart.cs" />
     <Compile Include="IPromotion.cs" />
     <Compile Include="PromotionBuyForFixedPrice.cs" />
     <Compile Include="PromotionBuyNItems.cs" />
