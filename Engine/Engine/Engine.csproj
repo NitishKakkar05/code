@@ -49,5 +49,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CartService\CartService.csproj">
+      <Project>{05cf2220-3e82-4826-b170-92c298de9182}</Project>
+      <Name>CartService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModel\DataModel.csproj">
+      <Project>{bf720a30-fb09-404d-b4e5-3aca37b8a639}</Project>
+      <Name>DataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PromotionsLib\PromotionsLib.csproj">
+      <Project>{cf326927-364e-4a8f-a227-9a57a36e2483}</Project>
+      <Name>PromotionsLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

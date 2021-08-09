@@ -4,7 +4,7 @@ using DataModel;
 
 namespace PromotionsLib
 {
-    class PromotionBuyNItems : IPromotion
+    public class PromotionBuyNItems : IPromotion
     {
         public string ItemId { get; set; }
         public int Count { get; set; }

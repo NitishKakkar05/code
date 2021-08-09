@@ -5,7 +5,7 @@ using PromotionsLib;
 
 namespace CartService
 {
-    class Cart
+    public class Cart
     {
         public decimal CartPrice { get; set; }
 
